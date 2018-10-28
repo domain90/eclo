@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "next"
+    "dev": "node server/index.js"
   },
   "author": "",
   "license": "ISC",
@@ -16,5 +16,8 @@
     "node-sass": "^4.9.4",
     "react": "^16.6.0",
     "react-dom": "^16.6.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.3.1"
   }
 }
